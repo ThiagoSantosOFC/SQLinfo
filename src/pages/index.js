@@ -9,6 +9,8 @@ import theme from '../components/theme'
 //Components chakra
 import { Heading, Box } from '@chakra-ui/react'
 
+//Self components
+import DrawerExample from '../components/textBox'
 
 export default function Home() {
   return (
@@ -22,7 +24,7 @@ export default function Home() {
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
 
       <Box>
-        
+        <DrawerExample />
       </Box>
     </div>
   )
