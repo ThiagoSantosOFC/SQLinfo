@@ -15,8 +15,8 @@ export default function Home() {
     <div className={styles.container}>
     
       <Head>
-        <title>placeholder</title>
-        <meta name="description" content="SQL | " />
+        <title>Home | SLQInfo</title>
+        <meta name="description" content="SQL | Everything that you should know " />
         <link rel="icon" href="/mysql.png" />
       </Head>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
