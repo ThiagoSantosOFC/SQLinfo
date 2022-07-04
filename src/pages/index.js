@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Navbar from '../components/Navbar'
+import Logo from '../components/Logo'
 //Default theme
 import { ColorModeScript } from '@chakra-ui/react'
 import theme from '../components/theme'
@@ -20,7 +21,8 @@ export default function Home() {
         <link rel="icon" href="/mysql.png" />
       </Head>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-
+      <Navbar />
+      <Logo />
       <Box>
         
       </Box>
