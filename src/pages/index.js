@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Navbar from '../components/Navbar'
+import Logo from '../components/Logo'
 //Default theme
 import { ColorModeScript } from '@chakra-ui/react'
 import theme from '../components/theme'
@@ -17,12 +18,13 @@ export default function Home() {
     <div className={styles.container}>
     
       <Head>
-        <title>placeholder</title>
-        <meta name="description" content="SQL | " />
+        <title>Home | SLQInfo</title>
+        <meta name="description" content="SQL | Everything that you should know " />
         <link rel="icon" href="/mysql.png" />
       </Head>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-
+      <Navbar />
+      <Logo />
       <Box>
         <DrawerExample />
       </Box>
