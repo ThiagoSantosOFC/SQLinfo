@@ -24,8 +24,7 @@ export default function Home() {
         <link rel="icon" href="/mysql.png" />
       </Head>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-      {/* <Navbar /> */}
-      <Logo />
+      <Navbar />
       <Box>
         <DrawerExample
           title="SQL"
