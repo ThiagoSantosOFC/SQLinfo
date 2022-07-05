@@ -12,7 +12,7 @@ import theme from '../components/theme'
 import { Heading, Box } from '@chakra-ui/react'
 
 //Self components
-import DrawerExample from '../components/textBox'
+import ContentDawer from '../components/contentDawer'
 let lorenPlaceholder = "Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 export default function Home() {
@@ -27,12 +27,12 @@ export default function Home() {
       <Navbar /> 
       
       <Box>
-        <DrawerExample
+        <ContentDawer
           title="SQL"
           button_text = "SQL"
         >  
           Loren 
-        </DrawerExample>        
+        </ContentDawer>        
       </Box>
     </div>
   )
