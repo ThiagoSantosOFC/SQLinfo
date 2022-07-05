@@ -81,7 +81,7 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/">JOIN</MenuItem>
         <MenuItem to="/">Subpesquisas</MenuItem>
         <MenuItem to="/">Uniões</MenuItem>
-        <MenuItem to="/info" isLast>Créditos</MenuItem>
+        <MenuItem to="/creditos" isLast>Créditos</MenuItem>
       </Stack>
     </Box>
   );
