@@ -1,13 +1,12 @@
-import { chakra } from '@chakra-ui/react'
-import { Image } from '@chakra-ui/react'
-import * as React from 'react'
+import React from "react";
+import { Box, Text } from "@chakra-ui/react";
+import Image from 'next/image';
+import NavLogo from "../public/assets/msql_logo.png"
 
-export default function Logo(props){
-  return(
-    <Image
-      boxSize='100px'
-      src='assets/msql_logo.png'
-      alt='logo'
-    />
-  )
+export default function Logo(props) {
+  return (
+    <Box {...props}>
+      <Image src={NavLogo}/>
+    </Box>
+  );
 }

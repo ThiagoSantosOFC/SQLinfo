@@ -49,10 +49,10 @@ export default function DrawerExample() {
   
             <DrawerBody>
               <Stack spacing={4} direction={'row'}>
-                <Image src={props.image} alt='logo' />
+               
                 <Box>
                   <Text>
-                    {props.children}
+                    
                   </Text>
                 </Box>
               </Stack>
