@@ -26,7 +26,12 @@ export default function Home() {
       <Navbar /> 
       
       <Box>
-        <DrawerExample />
+        <DrawerExample
+          title="SQL"
+          button_text = "SQL"
+        >
+          
+        </DrawerExample>        
       </Box>
     </div>
   )
