@@ -1,5 +1,8 @@
-import { Button, ButtonGroup } from '@chakra-ui/react'
 
+
+//Chakra components
+import { Heading } from '@chakra-ui/react'
+import { Button, ButtonGroup } from '@chakra-ui/react'
 import {
   Drawer,
   DrawerBody,
@@ -8,28 +11,32 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
+} from '@chakra-ui/react'
+import { 
   Box,
   Text,
   Image,
   Stack
 } from '@chakra-ui/react'
 
-import { Flex, Spacer } from '@chakra-ui/react'
-
+//Chakra Hookers
 import { useDisclosure } from '@chakra-ui/react'
-import { useState, useEffect, useRef } from "react";
+
+//React components
 import React from 'react';
 
-import { Heading } from '@chakra-ui/react'
 
-export default function DrawerExample() {
+
+export default function DrawerExample(props) {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = React.useRef()
-  
+    let lorenPlaceholder = "Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
     return (
       <Box>
         <Button ref={btnRef} colorScheme='teal' onClick={onOpen}>
-          Open
+          {props.button_text == undefined ? "Button text" : props.button_text}
         </Button>
         <Drawer
           size={'full'}
@@ -43,22 +50,21 @@ export default function DrawerExample() {
             <DrawerCloseButton />
             <DrawerHeader>
               <Heading size={'xl'}>
-                Drawer Header
+                {props.title == undefined ? 'Title' : props.title}
               </Heading>
             </DrawerHeader>
   
             <DrawerBody>
-              <Stack spacing={4} direction={'row'}>
-                <Image src={props.image} alt='logo' />
+              <Stack spacing={20} direction={'row'}>
+                <Image src={props.image == undefined ? "https://via.placeholder.com/700x400" : props.image} alt='logo' />
                 <Box>
                   <Text>
-                    {props.children}
+                    {props.children == undefined ? lorenPlaceholder : props.children}
                   </Text>
                 </Box>
               </Stack>
             </DrawerBody>
-  
-            <DrawerFooter>
+            <DrawerFooter pt={50}>
               <Button variant='outline' mr={3} onClick={onClose}>
                 Back
               </Button>
