@@ -16,6 +16,9 @@ import { Image } from '@chakra-ui/react'
 
 //Self components
 import ContentDawer from '../components/contentDawer'
+import Tip from '../components/toolTip'
+
+
 let lorenPlaceholder = "Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 export default function Home() {
@@ -56,8 +59,7 @@ export default function Home() {
                   Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
                   pesquisa declarativa padrão para banco de dados relacional. 
                   Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
-                    <br /> <br />
-                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório<br />
                   de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
                   Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
                   sistema gerência de Banco de Dados relacional, chamado "System R".
@@ -79,46 +81,64 @@ export default function Home() {
             <Stack align={'end'}>
               <Box>
                 <Heading as="h1" size="xl" color={'white'}>
-                  Components
+                  Componentes
                 </Heading>
               </Box>
+
+
             </Stack>
             <Stack direction={'row'} pt={10} spacing={40}>
               <Box>
                 <Image src="https://via.placeholder.com/700x400"alt="logo"/>
               </Box>
               <Box>
-                <Text color={'white'} maxWidth={700}>
-                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
-                  pesquisa declarativa padrão para banco de dados relacional. 
-                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
-                    <br /> <br />
-                  
+                <Text color={'white'} maxWidth={700} pb={50}> 
+                  O sql e composto por 3 componentes 
+                  Esses componentes são responsáveis por manipular os dados,
+                  controlar o acesso aos dados, e definir o modelo do banco de dados.
                 </Text>
                 <Stack direction={'row'} spacing={'10'}>
+
+                  {/*  */}
                   <Box>
-                    <ContentDawer 
-                      title={'Heading'}
-                      button_text={'DCL'}
-                    >
-                    Loren
-                    </ContentDawer>
+                    <Tip label={'Data Manipulation Language'}>
+                      <Box>
+                          <ContentDawer 
+                            title={'Heading'}
+                            button_text={'DML'}
+                          >
+                            {lorenPlaceholder}
+                          </ContentDawer>
+                      </Box>
+                    </Tip>
                   </Box>
+
+                  {/*  */}
                   <Box>
-                    <ContentDawer 
-                      title={'Heading'}
-                      button_text={'DCL'}
-                    >
-                    Loren
-                    </ContentDawer>
+                    <Tip label={'Data Manipulation Language'}>
+                      <Box>
+                          <ContentDawer 
+                            title={'Heading'}
+                            button_text={'DML'}
+                          >
+                            {lorenPlaceholder}
+                          </ContentDawer>
+                      </Box>
+                    </Tip>
                   </Box>
+
+  	              {/*  */}
                   <Box>
-                    <ContentDawer 
-                      title={'Heading'}
-                      button_text={'DML'}
-                    >
-                    Loren
-                    </ContentDawer>
+                    <Tip label={'Data Manipulation Language'}>
+                      <Box>
+                          <ContentDawer 
+                            title={'Heading'}
+                            button_text={'DML'}
+                          >
+                            {lorenPlaceholder}
+                          </ContentDawer>
+                      </Box>
+                    </Tip>
                   </Box>
                 </Stack>
               </Box>
