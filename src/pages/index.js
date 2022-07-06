@@ -93,7 +93,7 @@ export default function Home() {
               </Box>
               <Box>
                 <Text color={'white'} maxWidth={700} pb={50}> 
-                  O sql e composto por 3 componentes 
+                  O MySQL é composto por 3 componentes 
                   Esses componentes são responsáveis por manipular os dados,
                   controlar o acesso aos dados, e definir o modelo do banco de dados.
                 </Text>
@@ -115,11 +115,11 @@ export default function Home() {
 
                   {/*  */}
                   <Box>
-                    <Tip label={'Data Manipulation Language'}>
+                    <Tip label={'Data Definition Language'}>
                       <Box>
                           <ContentDawer 
                             title={'Heading'}
-                            button_text={'DML'}
+                            button_text={'DDL'}
                           >
                             {lorenPlaceholder}
                           </ContentDawer>
@@ -129,11 +129,11 @@ export default function Home() {
 
   	              {/*  */}
                   <Box>
-                    <Tip label={'Data Manipulation Language'}>
+                    <Tip label={'Data Control Language'}>
                       <Box>
                           <ContentDawer 
                             title={'Heading'}
-                            button_text={'DML'}
+                            button_text={'DCL'}
                           >
                             {lorenPlaceholder}
                           </ContentDawer>

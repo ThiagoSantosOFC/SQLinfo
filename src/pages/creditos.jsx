@@ -22,7 +22,7 @@ const creditos = () => {
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <Navbar />
 
-      <div className=""></div>
+      <div className="w-full md:h-screen p-2 flex items-center py-24"></div>
     </div>
   );
 };
