@@ -39,7 +39,7 @@ export default function Home() {
 
 
       {/* Sql content */}
-      <Box pt={400} p={50} pb={400}>
+      <Box pt={400} p={50} pb={400} id="sql">
           <Box>
             <Stack align={'start'}>
               <Box>
@@ -69,10 +69,156 @@ export default function Home() {
       </Box>
 
 
-      {/* Sql content */}
-      <Box pt={400} p={50}>
+      {/* componentes do sql */}
+      <Box pt={400} p={50} id ="componentes">
           <Box>
             <Stack align={'end'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  SQL
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+
+            {/* Pesquisas */}
+            <Box pt={400} p={50} id ="pesquisas">
+          <Box>
+            <Stack align={'start'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  SQL
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+            {/* Logica e funções */}
+            <Box pt={400} p={50} id ="logica_funcoes">
+          <Box>
+            <Stack align={'end'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  SQL
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+                {/* Join */}
+                <Box pt={400} p={50} id ="join">
+          <Box>
+            <Stack align={'start'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  SQL
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+                {/* Subpesquisas */}
+                <Box pt={400} p={50} id ="subpesquisas">
+          <Box>
+            <Stack align={'end'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  SQL
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+                {/* unions */}
+                <Box pt={400} p={50} id ="unioes">
+          <Box>
+            <Stack align={'start'}>
               <Box>
                 <Heading as="h1" size="xl" color={'white'}>
                   SQL

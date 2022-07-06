@@ -74,13 +74,13 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
       >
         <MenuItem to="/">Home</MenuItem>
-        <MenuItem to="/">SQL</MenuItem>
-        <MenuItem to="/">Componentes</MenuItem>
-        <MenuItem to="/">Pesquisas</MenuItem>
-        <MenuItem to="/">Lógica e Funções</MenuItem>
-        <MenuItem to="/">JOIN</MenuItem>
-        <MenuItem to="/">Subpesquisas</MenuItem>
-        <MenuItem to="/">Uniões</MenuItem>
+        <MenuItem to="/#sql">SQL</MenuItem>
+        <MenuItem to="/#componentes">Componentes</MenuItem>
+        <MenuItem to="/#pesquisas">Pesquisas</MenuItem>
+        <MenuItem to="/#logica_funcoes">Lógica e Funções</MenuItem>
+        <MenuItem to="/#join">JOIN</MenuItem>
+        <MenuItem to="/#subpesquisas">Subpesquisas</MenuItem>
+        <MenuItem to="/#unioes">Uniões</MenuItem>
         <MenuItem to="/creditos" isLast>Créditos</MenuItem>
       </Stack>
     </Box>
