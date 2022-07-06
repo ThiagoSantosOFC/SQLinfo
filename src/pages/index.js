@@ -49,6 +49,7 @@ export default function Home() {
               </Box>
             </Stack>
             <Stack direction={'row'} pt={10} spacing={40}>
+              {/*  */}
               <Box>
                 <Text color={'white'} maxWidth={700}>
                   Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
@@ -61,6 +62,8 @@ export default function Home() {
                   sistema gerência de Banco de Dados relacional, chamado "System R".
                 </Text>
               </Box>
+              
+              {/*  */}
               <Box>
                 <Image src="/images/sql/image-sql.png" alt="logo"/>
               </Box>
@@ -75,13 +78,13 @@ export default function Home() {
             <Stack align={'end'}>
               <Box>
                 <Heading as="h1" size="xl" color={'white'}>
-                  SQL
+                  Components
                 </Heading>
               </Box>
             </Stack>
             <Stack direction={'row'} pt={10} spacing={40}>
               <Box>
-                <Image src="/images/sql/image-sql.png" alt="logo"/>
+                <Image src="https://via.placeholder.com/700x400"alt="logo"/>
               </Box>
               <Box>
                 <Text color={'white'} maxWidth={700}>
@@ -89,11 +92,34 @@ export default function Home() {
                   pesquisa declarativa padrão para banco de dados relacional. 
                   Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
                     <br /> <br />
-                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
-                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
-                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
-                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                  
                 </Text>
+                <Stack direction={'row'} spacing={'10'}>
+                  <Box>
+                    <ContentDawer 
+                      title={'Heading'}
+                      button_text={'DCL'}
+                    >
+                    Loren
+                    </ContentDawer>
+                  </Box>
+                  <Box>
+                    <ContentDawer 
+                      title={'Heading'}
+                      button_text={'DCL'}
+                    >
+                    Loren
+                    </ContentDawer>
+                  </Box>
+                  <Box>
+                    <ContentDawer 
+                      title={'Heading'}
+                      button_text={'DML'}
+                    >
+                    Loren
+                    </ContentDawer>
+                  </Box>
+                </Stack>
               </Box>
             </Stack>
           </Box>       
