@@ -74,22 +74,14 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
       >
         <MenuItem to="/">Home</MenuItem>
-        <MenuItem to="/how">How It works </MenuItem>
-        <MenuItem to="/faetures">Features </MenuItem>
-        <MenuItem to="/pricing">Pricing </MenuItem>
-        <MenuItem to="/signup" isLast>
-          <Button
-            size="sm"
-            rounded="md"
-            color={["primary.500", "primary.500", "white", "white"]}
-            bg={["white", "white", "primary.500", "primary.500"]}
-            _hover={{
-              bg: ["primary.100", "primary.100", "primary.600", "primary.600"]
-            }}
-          >
-            Create Account
-          </Button>
-        </MenuItem>
+        <MenuItem to="/">SQL</MenuItem>
+        <MenuItem to="/">Componentes</MenuItem>
+        <MenuItem to="/">Pesquisas</MenuItem>
+        <MenuItem to="/">Lógica e Funções</MenuItem>
+        <MenuItem to="/">JOIN</MenuItem>
+        <MenuItem to="/">Subpesquisas</MenuItem>
+        <MenuItem to="/">Uniões</MenuItem>
+        <MenuItem to="/creditos" isLast>Créditos</MenuItem>
       </Stack>
     </Box>
   );
