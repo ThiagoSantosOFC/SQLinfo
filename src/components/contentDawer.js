@@ -24,6 +24,9 @@ import { useDisclosure } from '@chakra-ui/react'
 //React components
 import React from 'react';
 
+//Componentes
+import Tip from './Tooltip'
+
 
 
 export default function ContentDawer(props) {
@@ -33,9 +36,11 @@ export default function ContentDawer(props) {
 
     return (
       <Box>
-        <Button ref={btnRef} onClick={onOpen}>
-          {props.button_text == undefined ? "Button text" : props.button_text}
-        </Button>
+        <Tip label={props.tip}>
+          <Button ref={btnRef} onClick={onOpen}>
+            {props.button_text == undefined ? "Button text" : props.button_text}
+          </Button>
+        </Tip>
         <Drawer
           size={'full'}
           isOpen={isOpen}

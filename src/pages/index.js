@@ -108,43 +108,85 @@ export default function Home() {
               <Stack direction={"row"} spacing={"10"}>
                 {/*  */}
                 <Box>
-                  <Tip label={"Data Manipulation Language"}>
-                    <Box>
-                      <ContentDawer title={"Heading"} button_text={"DML"}>
-                        {lorenPlaceholder}
-                      </ContentDawer>
-                    </Box>
-                  </Tip>
+                  <ContentDawer
+                    title={"Heading"}
+                    button_text={"DML"}
+                    tip={"Data Manipulation Language"}
+                  >
+                    A linguagem de manipulação de dados é usada para gerenciar
+                    dados em bancos de dados relacionais. Inclui procedimentos
+                    para recuperar, inserir, atualizar e excluir dados. Ela e
+                    composta pelas operações basicas do sql que definem o CRUD
+                    que é relacionado com as quatro operações basicas do sql.
+                    <br /> <br />
+                    <strong>Create Read Update Delete.</strong>
+                    <br /> <br />
+                    <strong>Create</strong> - Insere um novo registro no banco
+                    de dados.
+                    <br />
+                    <strong>Read</strong> - Recupera um registro do banco de
+                    dados.
+                    <br />
+                    <strong>Update</strong> - Atualiza um registro do banco de
+                    dados.
+                    <br />
+                    <strong>Delete</strong> - Exclui um registro do banco de
+                    dados
+                  </ContentDawer>
                 </Box>
 
-                {/*  */}
                 <Box>
-                  <Tip label={"Data Definition Language"}>
-                    <Box>
-                      <ContentDawer title={"Heading"} button_text={"DDL"}>
-                        {lorenPlaceholder}
-                      </ContentDawer>
-                    </Box>
-                  </Tip>
+                  <ContentDawer
+                    title={"Heading"}
+                    button_text={"DDL"}
+                    tip={"Data Definition Language"}
+                  >
+                    A linguagem de definição de dados é usada para definir a
+                    estrutura de um banco de dados, incluindo as tabelas,
+                    colunas e índices. Também inclui instruções para criar
+                    alterando ou descartando objetos de banco de dados, como
+                    tabelas, índices e visualizações. Ela é composta pelos
+                    comandos basicos do sql que definem/criam/alteram/descartam
+                    tabelas, colunas, índices, visualizações e a propria
+                    estrutura do banco de dados.
+                    <br /> <br />
+                    <strong>Create</strong> - Cria uma nova tabela no banco de
+                    dados.
+                    <br />
+                    <strong>Alter</strong> - Altera uma tabela existente no
+                    banco de dados.
+                    <br />
+                    <strong>Drop</strong> - Exclui uma tabela do banco de dados.
+                    <br />
+                    <strong>Create View</strong> - Cria uma nova visualização no
+                    banco de dados.
+                    <br />
+                    <strong>Alter View</strong> - Altera uma visualização
+                    existente no banco de dados.
+                    <br />
+                    <strong>Drop View</strong> - Exclui uma visualização do
+                    banco de dados.
+                  </ContentDawer>
                 </Box>
 
-                {/*  */}
                 <Box>
-                  <Tip label={"Data Control Language"}>
-                    <Box>
-                      <ContentDawer title={"Heading"} button_text={"DCL"}>
-                        {lorenPlaceholder}
-                      </ContentDawer>
-                    </Box>
-                  </Tip>
+                  <ContentDawer
+                    title={"Heading"}
+                    button_text={"DDL"}
+                    tip={"Data Definition Language"}
+                  >
+                    A Linguagem de controle de dados inclui comandos para
+                    gerenciar o acesso a objetos e permissões do banco de dados.
+                    Também inclui instruções para criar e modificar funções, que
+                    são grupos de privilégios que podem ser atribuídos aos
+                    usuários.
+                  </ContentDawer>
                 </Box>
               </Stack>
             </Box>
           </Stack>
         </Box>
       </Box>
-
-      {/* Daqui pra baixo so copy paste */}
 
       {/* Pesquisas */}
       <Box pt={400} p={50} pb={400} id="pesquisas">
