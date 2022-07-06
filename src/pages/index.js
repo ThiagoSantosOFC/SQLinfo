@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
-
+import Link from 'next/link'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 //Default theme
 import { ColorModeScript } from '@chakra-ui/react'
@@ -128,14 +129,14 @@ export default function Home() {
 
 
 {/* Daqui pra baixo so copy paste */}
-      
+
       {/* Pesquisas */}
       <Box pt={400} p={50} pb={400} id ="pesquisas">
           <Box>
             <Stack align={'start'}>
               <Box>
                 <Heading as="h1" size="xl" color={'white'}>
-                  SQL
+                  Pesquisas (queries)
                 </Heading>
               </Box>
             </Stack>
@@ -159,14 +160,13 @@ export default function Home() {
           </Box>       
       </Box>
 
-
-      {/* Pesquisas */}
-      <Box pt={400} p={50} pb={400} id ="pesquisas">
+       {/* Lógica e funções */}
+       <Box pt={400} p={50} pb={400} id ="logica_funcoes">
           <Box>
             <Stack align={'end'}>
               <Box>
                 <Heading as="h1" size="xl" color={'white'}>
-                  Pesquisas (querries)
+                  Lógica e funções 
                 </Heading>
               </Box>
             </Stack>
@@ -189,6 +189,108 @@ export default function Home() {
             </Stack>
           </Box>       
       </Box>
+
+             {/* Join */}
+             <Box pt={400} p={50} pb={400} id ="join">
+          <Box>
+            <Stack align={'start'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  JOINS
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+
+                   {/* Subqueries */}
+                   <Box pt={400} p={50} pb={400} id ="subpesquisas">
+          <Box>
+            <Stack align={'end'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  Subpesquisas (subqueries)
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+
+                         {/* Unioes */}
+                         <Box pt={400} p={50} pb={400} id ="unioes">
+          <Box>
+            <Stack align={'start'}>
+              <Box>
+                <Heading as="h1" size="xl" color={'white'}>
+                  Uniões
+                </Heading>
+              </Box>
+            </Stack>
+            <Stack direction={'row'} pt={10} spacing={40}>
+              <Box>
+                <Image src="/images/sql/image-sql.png" alt="logo"/>
+              </Box>
+              <Box>
+                <Text color={'white'} maxWidth={700}>
+                  Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de 
+                  pesquisa declarativa padrão para banco de dados relacional. 
+                  Muitas das características originais do SQL foram inspiradas na álgebra relacional. 
+                    <br /> <br />
+                  A Linguagem SQL surgiu no início dos anos 70, como fruto de um projeto da IBM no laboratório
+                  de San José. Eles trabalhavam num projeto de uma linguagem que se adequasse ao modelo relacional.
+                  Este projeto trabalhava em paralelo com um outro projeto que visava desenvolver um 
+                  sistema gerência de Banco de Dados relacional, chamado "System R".
+                </Text>
+              </Box>
+            </Stack>
+          </Box>       
+      </Box>
+      <div className='flex justify-center py-12'>
+          <Link href='/'>
+            <a>
+              <div className='rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleUp
+                  className='text-[#5651e5]'
+                  size={30}
+                />
+              </div>
+            </a>
+          </Link>
+          </div>
     </div>
   )
 }
