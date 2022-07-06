@@ -109,7 +109,7 @@ export default function Home() {
                 {/*  */}
                 <Box>
                   <ContentDawer
-                    title={"Heading"}
+                    title={"Data Manipulation Language"}
                     button_text={"DML"}
                     tip={"Data Manipulation Language"}
                   >
@@ -137,7 +137,7 @@ export default function Home() {
 
                 <Box>
                   <ContentDawer
-                    title={"Heading"}
+                    title={"Data Definition Language"}
                     button_text={"DDL"}
                     tip={"Data Definition Language"}
                   >
@@ -171,9 +171,9 @@ export default function Home() {
 
                 <Box>
                   <ContentDawer
-                    title={"Heading"}
-                    button_text={"DDL"}
-                    tip={"Data Definition Language"}
+                    title={"Data Control Language"}
+                    button_text={"DCL"}
+                    tip={"Data Control Language"}
                   >
                     A Linguagem de controle de dados inclui comandos para
                     gerenciar o acesso a objetos e permissões do banco de dados.
@@ -200,20 +200,20 @@ export default function Home() {
           </Stack>
           <Stack direction={"row"} pt={10} spacing={40}>
             <Box>
-              <Image src="/images/sql/image-sql.png" alt="logo" />
+              <Image src="/images/sql/queries.png" alt="queries" />
             </Box>
             <Box>
               <Text color={"white"} maxWidth={700}>
-                Structured Query Language, ou Linguagem de Consulta Estruturada
-                ou SQL, é a linguagem de pesquisa declarativa padrão para banco
-                de dados relacional. Muitas das características originais do SQL
-                foram inspiradas na álgebra relacional.
-                <br /> <br />A Linguagem SQL surgiu no início dos anos 70, como
-                fruto de um projeto da IBM no laboratório de San José. Eles
-                trabalhavam num projeto de uma linguagem que se adequasse ao
-                modelo relacional. Este projeto trabalhava em paralelo com um
-                outro projeto que visava desenvolver um sistema gerência de
-                Banco de Dados relacional, chamado "System R".
+                O gerenciamento de banco de dados permite excluir, adicionar ou
+                modificar os dados do seu projeto online.
+                <br />
+                <br />
+                Para realizar essas operações, uma consulta deve ser feita. Mas
+                para fazer isso, é importante que o banco de dados entenda a
+                solicitação.
+                <br /> <br />
+                Assim, quando o comando correto é executado, o desenvolvedor
+                obtém o resultado desejado a partir das informações armazenadas.
               </Text>
             </Box>
           </Stack>
@@ -226,7 +226,7 @@ export default function Home() {
           <Stack align={"end"}>
             <Box>
               <Heading as="h1" size="xl" color={"white"}>
-                Lógica e funções
+                Lógica e funções de grupo
               </Heading>
             </Box>
           </Stack>
@@ -235,18 +235,40 @@ export default function Home() {
               <Image src="/images/sql/image-sql.png" alt="logo" />
             </Box>
             <Box>
+              <Box>
               <Text color={"white"} maxWidth={700}>
-                Structured Query Language, ou Linguagem de Consulta Estruturada
-                ou SQL, é a linguagem de pesquisa declarativa padrão para banco
-                de dados relacional. Muitas das características originais do SQL
-                foram inspiradas na álgebra relacional.
-                <br /> <br />A Linguagem SQL surgiu no início dos anos 70, como
-                fruto de um projeto da IBM no laboratório de San José. Eles
-                trabalhavam num projeto de uma linguagem que se adequasse ao
-                modelo relacional. Este projeto trabalhava em paralelo com um
-                outro projeto que visava desenvolver um sistema gerência de
-                Banco de Dados relacional, chamado "System R".
-              </Text>
+
+                <strong>Lógica</strong> - É feita por operadores aritméticos, lógicos e comparação são usados em consultas SQL para realizar tarefas como somar ou agrupar valores, comparar valores do banco de dados com constantes e variáveis, entre outras. 
+                <br />
+                Esses operadores nos auxiliam na construções de consultas a fim ajudar na comparação de valores e estabelecer diferenças entre um resultado e outro.
+                <br />
+                <br />
+                <strong>Funções de agregação</strong> - Uma função de agregação processa um conjunto de valores contidos em uma única coluna de uma tabela e retorna um único valor como resultado. 
+                <br />
+                Sua sintaxe é semelhante aquela encontrada em muitas linguagens de programação. 
+                <br />
+                Contudo, o parâmetro informado é sempre a coluna cujos valores desejamos processar.
+
+
+                <br />
+                <br />
+               </Text>
+
+
+              </Box>
+              <Stack direction={"row"} spacing={"10"}>
+                <ContentDawer
+                  title={"Lógica"}
+                  button_text={"Lógica"}
+                  tip={"Lógica"}
+                ></ContentDawer>
+
+                <ContentDawer
+                  title={"Funções de agregação"}
+                  button_text={"Funções de agregação"}
+                  tip={"Funções de agregação"}
+                ></ContentDawer>
+              </Stack>
             </Box>
           </Stack>
         </Box>
@@ -264,20 +286,21 @@ export default function Home() {
           </Stack>
           <Stack direction={"row"} pt={10} spacing={40}>
             <Box>
-              <Image src="/images/sql/image-sql.png" alt="logo" />
+              <Image src="/images/sql/join.jpg" alt="logo" />
             </Box>
             <Box>
               <Text color={"white"} maxWidth={700}>
-                Structured Query Language, ou Linguagem de Consulta Estruturada
-                ou SQL, é a linguagem de pesquisa declarativa padrão para banco
-                de dados relacional. Muitas das características originais do SQL
-                foram inspiradas na álgebra relacional.
-                <br /> <br />A Linguagem SQL surgiu no início dos anos 70, como
-                fruto de um projeto da IBM no laboratório de San José. Eles
-                trabalhavam num projeto de uma linguagem que se adequasse ao
-                modelo relacional. Este projeto trabalhava em paralelo com um
-                outro projeto que visava desenvolver um sistema gerência de
-                Banco de Dados relacional, chamado "System R".
+                Uma cláusula JOIN em SQL, correspondente a uma operação de
+                junção em álgebra relacional, combina colunas de uma ou mais
+                tabelas em um banco de dados relacional.
+                <br />
+                Ela cria um conjunto que pode ser salvo como uma tabela ou usado
+                da forma como está.
+                <br />
+                Um JOIN é um meio de combinar colunas de uma (auto-junção) ou
+                mais tabelas, usando valores comuns a cada uma delas.
+                <br />O SQL padrão ANSI especifica cinco tipos de JOIN: INNER
+                JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN e CROSS JOIN.
               </Text>
             </Box>
           </Stack>
@@ -300,16 +323,11 @@ export default function Home() {
             </Box>
             <Box>
               <Text color={"white"} maxWidth={700}>
-                Structured Query Language, ou Linguagem de Consulta Estruturada
-                ou SQL, é a linguagem de pesquisa declarativa padrão para banco
-                de dados relacional. Muitas das características originais do SQL
-                foram inspiradas na álgebra relacional.
-                <br /> <br />A Linguagem SQL surgiu no início dos anos 70, como
-                fruto de um projeto da IBM no laboratório de San José. Eles
-                trabalhavam num projeto de uma linguagem que se adequasse ao
-                modelo relacional. Este projeto trabalhava em paralelo com um
-                outro projeto que visava desenvolver um sistema gerência de
-                Banco de Dados relacional, chamado "System R".
+                Uma subconsulta (geralmente chamada SUBQUERY ou SUBSELECT) é uma
+                instrução SELECT dentro de outra instrução SQL.
+                <br />
+                Dessa forma, consultas que seriam extremamente complexas ou
+                impossíveis de executar podem ser executadas.
               </Text>
             </Box>
           </Stack>
