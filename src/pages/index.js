@@ -166,7 +166,7 @@ export default function Home() {
             <Stack align={'end'}>
               <Box>
                 <Heading as="h1" size="xl" color={'white'}>
-                  SQL
+                  Pesquisas (querries)
                 </Heading>
               </Box>
             </Stack>
