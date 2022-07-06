@@ -36,14 +36,13 @@ export default function Home() {
       <Navbar />
 
       {/* Website header content */}
-      <Box p={50} pb={400}>
+      <Box p={10} pb={400}>
         <Stack direction={"column"} align={"center"} spacing={10}>
           <Box>
             <Image
-              src="/images/sql/sql-header.png"
+              src="/images/src/gifdb1.gif"
               alt="logo"
-              bg={"white"}
-              borderRadius="full"
+              borderRadius="20%"
             />
           </Box>
         </Stack>
@@ -68,9 +67,8 @@ export default function Home() {
                 de dados relacional. Muitas das características originais do SQL
                 foram inspiradas na álgebra relacional. A Linguagem SQL surgiu
                 no início dos anos 70, como fruto de um projeto da IBM no
-                laboratório
-                <br />
-                de San José. Eles trabalhavam num projeto de uma linguagem que
+                laboratório de San José. <br />
+                Eles trabalhavam num projeto de uma linguagem que
                 se adequasse ao modelo relacional. Este projeto trabalhava em
                 paralelo com um outro projeto que visava desenvolver um sistema
                 gerência de Banco de Dados relacional, chamado "System R".
@@ -79,7 +77,7 @@ export default function Home() {
 
             {/*  */}
             <Box>
-              <Image src="/images/sql/image-sql.png" alt="logo" />
+              <Image src="/images/src/db3.png" alt="logo" />
             </Box>
           </Stack>
         </Box>
@@ -97,7 +95,7 @@ export default function Home() {
           </Stack>
           <Stack direction={"row"} pt={10} spacing={40}>
             <Box>
-              <Image src="https://via.placeholder.com/700x400" alt="logo" />
+              <Image src="/images/src/db2.png" alt="logo" />
             </Box>
             <Box>
               <Text color={"white"} maxWidth={700} pb={50}>
@@ -172,14 +170,22 @@ export default function Home() {
                 <Box>
                   <ContentDawer
                     title={"Heading"}
-                    button_text={"DDL"}
-                    tip={"Data Definition Language"}
+                    button_text={"DCL"}
+                    tip={"Data Control Language"}
+                    image={"/images/snaps/snap_DCL.png"}
                   >
                     A Linguagem de controle de dados inclui comandos para
                     gerenciar o acesso a objetos e permissões do banco de dados.
                     Também inclui instruções para criar e modificar funções, que
                     são grupos de privilégios que podem ser atribuídos aos
-                    usuários.
+                    usuários do banco de dados. Ela é composta pelos comandos
+                    que manipulam as permissões de usuários dentro do banco de dados.
+
+                    <br /> <br />
+                    <strong>GRANT</strong> - Atribui privilégios a um usuário.
+                    <br />
+                    <strong>REVOKE</strong> - Remove privilégios de um usuário.
+                    
                   </ContentDawer>
                 </Box>
               </Stack>
