@@ -9,8 +9,6 @@ export default function Tip(props) {
       label={props.label} 
       aria-label='A tooltip' 
       closeDelay={1} 
-      defaultIsOpen
-      closeOnClick={true}
       >
         {props.children}
       </Tooltip>

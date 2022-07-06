@@ -115,11 +115,19 @@ export default function Home() {
 
                   {/*  */}
                   <Box>
+<<<<<<< Updated upstream
                     <Tip label={'Data Definition Language'}>
                       <Box>
                           <ContentDawer 
                             title={'Heading'}
                             button_text={'DDL'}
+=======
+                    <Tip label={'Data Control Language'}>
+                      <Box>
+                          <ContentDawer 
+                            title={'Heading'}
+                            button_text={'DCL'}
+>>>>>>> Stashed changes
                           >
                             {lorenPlaceholder}
                           </ContentDawer>
@@ -129,11 +137,19 @@ export default function Home() {
 
   	              {/*  */}
                   <Box>
+<<<<<<< Updated upstream
                     <Tip label={'Data Control Language'}>
                       <Box>
                           <ContentDawer 
                             title={'Heading'}
                             button_text={'DCL'}
+=======
+                    <Tip label={'Data Definition Language'}>
+                      <Box>
+                          <ContentDawer 
+                            title={'Heading'}
+                            button_text={'DDL'}
+>>>>>>> Stashed changes
                           >
                             {lorenPlaceholder}
                           </ContentDawer>
