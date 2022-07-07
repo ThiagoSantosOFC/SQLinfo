@@ -31,13 +31,13 @@ const sql = () => {
               de San José. Eles trabalhavam num projeto de uma linguagem que
               se adequasse ao modelo relacional. Este projeto trabalhava em
               paralelo com um outro projeto que visava desenvolver um sistema
-              gerência de Banco de Dados relacional, chamado "System R".
+              gerência de Banco de Dados relacional, chamado &quot;System R&quot;.
             </Text>
           </Box>
 
           {/*  */}
           <Box>
-            <Image src="/images/sql/image-sql.png" alt="logo" />
+            <Image src="/images/sql/image-sql.png" alt="sql" />
           </Box>
         </Stack>
       </Box>
