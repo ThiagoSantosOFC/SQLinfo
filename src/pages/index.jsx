@@ -21,10 +21,6 @@ import { ColorModeScript } from "@chakra-ui/react";
 import theme from "../components/theme";
 
 //Components chakra
-import { Heading, Text } from "@chakra-ui/react";
-import { Box } from "@chakra-ui/react";
-import { Stack } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
 
 //Self components
 
