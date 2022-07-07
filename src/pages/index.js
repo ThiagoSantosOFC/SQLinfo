@@ -169,7 +169,7 @@ export default function Home() {
 
                 <Box>
                   <ContentDawer
-                    title={"Heading"}
+                    title={"Data Control Language"}
                     button_text={"DCL"}
                     tip={"Data Control Language"}
                     image={"/images/snaps/snap_DCL.png"}
