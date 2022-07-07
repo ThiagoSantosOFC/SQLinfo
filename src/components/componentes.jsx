@@ -22,10 +22,10 @@ const componentes = () => {
         </Stack>
         <Stack direction={"row"} pt={10} spacing={40}>
           <Box>
-            <Image src="https://via.placeholder.com/700x400" alt="logo" />
+            <Image src="/images/src/db3.png" alt="logo"/>
           </Box>
           <Box>
-            <Text color={"white"} maxWidth={700} pb={50}>
+            <Text color={"white"} maxWidth={700} pb={50} pt={40}>
               O MySQL é composto por 3 componentes Esses componentes são
               responsáveis por manipular os dados, controlar o acesso aos
               dados, e definir o modelo do banco de dados.
@@ -37,6 +37,7 @@ const componentes = () => {
                   title={"Data Manipulation Language"}
                   button_text={"DML"}
                   tip={"Data Manipulation Language"}
+                  image={'/images/snaps/snap_DML.png'}
                 >
                   A linguagem de manipulação de dados é usada para gerenciar
                   dados em bancos de dados relacionais. Inclui procedimentos
@@ -65,6 +66,7 @@ const componentes = () => {
                   title={"Data Definition Language"}
                   button_text={"DDL"}
                   tip={"Data Definition Language"}
+                  image={'/images/snaps/snap_DDL.png'}
                 >
                   A linguagem de definição de dados é usada para definir a
                   estrutura de um banco de dados, incluindo as tabelas,
@@ -99,12 +101,19 @@ const componentes = () => {
                   title={"Data Control Language"}
                   button_text={"DCL"}
                   tip={"Data Control Language"}
+                  image={'/images/snaps/snap_DCL.png'}
                 >
                   A Linguagem de controle de dados inclui comandos para
                   gerenciar o acesso a objetos e permissões do banco de dados.
                   Também inclui instruções para criar e modificar funções, que
                   são grupos de privilégios que podem ser atribuídos aos
-                  usuários.
+                  usuários. Ela e composta pelos comandos sql que definem permissões,
+                  para os usuarios que podem acessar os objetos do banco de dados.
+
+                  <br /> <br />
+                  <strong>Grant</strong> - Atribui privilégios a um usuário.
+                  <br />
+                  <strong>Revoke</strong> - Revoga privilégios de um usuário.
                 </ContentDawer>
               </Box>
             </Stack>
