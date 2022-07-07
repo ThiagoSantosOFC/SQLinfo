@@ -6,12 +6,12 @@ import { Stack } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 
 import ContentDawer from "../components/contentDawer";
-import Tip from "../components/toolTip";
+
 
 const componentes = () => {
   return (
     <div>
-      {" "}
+  
       {/* componentes do sql */}
       <Box pt={400} p={50} pb={400} id="componentes">
         <Box>

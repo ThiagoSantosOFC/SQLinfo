@@ -1,6 +1,6 @@
 import React from "react";
 import ContentDawer from "../components/contentDawer";
-import Tip from "../components/toolTip";
+
 //Components chakra
 import { Heading, Text } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
