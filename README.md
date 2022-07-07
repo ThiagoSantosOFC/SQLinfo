@@ -2,4 +2,4 @@
  Trabalho final do modulo 14 da disciplina de PSI
 
 
-Link para o projeto https://sql-info1.vercel.app
+Link para o projeto https://sqlinfo.vercel.app
