@@ -64,7 +64,7 @@ export default function ContentDawer(props) {
                 alt="Placeholder"
               />
               <Box>
-                <Text maxWidth={700}>
+                <Text maxWidth={700} >
                   {props.children == undefined
                     ? lorenPlaceholder
                     : props.children}
@@ -72,7 +72,7 @@ export default function ContentDawer(props) {
               </Box>
             </Stack>
           </DrawerBody>
-          <DrawerFooter pt={50}>
+          <DrawerFooter pt={10}>
             <Button variant="outline" mr={3} onClick={onClose}>
               Back
             </Button>
