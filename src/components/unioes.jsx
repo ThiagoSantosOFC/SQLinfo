@@ -20,19 +20,22 @@ const unioes = () => {
           </Stack>
           <Stack direction={"row"} pt={10} spacing={40}>
             <Box>
-              <Image src="/images/sql/image-sql.png" alt="logo" />
+              <Image src="/images/sql/union.png" alt="logo" />
             </Box>
             <Box>
               <Text color={"white"} maxWidth={700}>
                 <strong>UNION</strong> é usado para combinar dois ou mais comandos separados para
                 retornar uma única saída.
                 <br />
+                <br />
                 O operador <strong>UNION</strong> é usado para combinar o conjunto de
                 resultados de dois ou mais comandos <strong>SELECT</strong>. 
+                <br />
                 <br />
                 <strong>UNION</strong> é útil porque
                 temos algumas informações em várias tabelas e queremos pegar
                 linhas de todas elas de uma só vez.
+                <br />
                 <br />
                 Queremos selecionar vários
                 conjuntos de linhas de uma mesma tabela, mas algumas condições
@@ -46,6 +49,7 @@ const unioes = () => {
                 As linhas recuperadas por cada uma são
                 combinadas e produzidas como resultado final do comando.
                 <br /> 
+                <br />
                 As uniões são úteis se você desejar juntar os resultados de mais de
                 uma consulta, mas esteja ciente de que o número das colunas
                 retornadas por cada consulta selecionada deve ser o mesmo.
