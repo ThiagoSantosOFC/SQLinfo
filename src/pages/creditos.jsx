@@ -18,7 +18,7 @@ const creditos = () => {
           content="SQL | Everything that you should know "
         />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7817685259056579"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
         <link rel="icon" href="/mysql.png" />
       </Head>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
