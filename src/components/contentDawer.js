@@ -31,7 +31,7 @@ export default function ContentDawer(props) {
   return (
     <Box 
     paddingTop={ props.paddingTop == undefined ? "auto" : props.paddingTop }
-    PaddingBottom={ props.PaddingBottom == undefined ? "auto" : props.scrollPaddingBottom }
+    PaddingBottom={ props.PaddingBottom == undefined ? "auto" : props.PaddingBottom }
     >
       <Tip label={props.tip}>
         <Button ref={btnRef} onClick={onOpen} mr={3} shadow={'dark-lg'} >
