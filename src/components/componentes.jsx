@@ -102,6 +102,7 @@ const componentes = () => {
                       // tip={"Transação sql"}
                       image={"/images/snaps/snap_TRANSACTION.png"}
                       paddingTop={100}
+                      PaddingBottom={30}
                     >
                       Dentro do sql as transações são uma maneira segura de
                       fazer operações perigosas com a possibilidade de reverter.
