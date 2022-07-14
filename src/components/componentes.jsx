@@ -145,6 +145,13 @@ const componentes = () => {
                     <strong>Grant</strong> - Atribui privilégios a um usuário.
                     <br />
                     <strong>Revoke</strong> - Revoga privilégios de um usuário.
+                    <br /> <br />
+                    O componente de controle de dados tem uma grande importancia para manter
+                    a base de dados segura. <br /> E caso seja ignorada ou negligenciada pode haver 
+                    grandes consequencias negativas como por exemplo invasões de usuarios mal 
+                    intencionados ou vazamento de dados confidenciais ou sensiveis por isso a segurança e 
+                    essencial.
+
                   </ContentDawer>
                 </Box>
               </Stack>
