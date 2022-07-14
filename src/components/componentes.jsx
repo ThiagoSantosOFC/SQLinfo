@@ -95,6 +95,35 @@ const componentes = () => {
                     <br />
                     <strong>Drop View</strong> - Exclui uma visualização do
                     banco de dados.
+                    
+                     <ContentDawer
+                      title={"Transação sql"}
+                      button_text={"Transação sql"}
+                      // tip={"Transação sql"}
+                      image={"/images/snaps/snap_TRANSACTION.png"}
+                      paddingTop={100}
+                    >
+                      Dentro do sql as transações são uma maneira segura de
+                      fazer operações perigosas com a possibilidade de reverter.
+                      <br /><br />
+                      O sql já usa transações implicitamente se escrevermos um
+                      comando select errado, o sql retornará um erro (ou se
+                      escrevermos um comando de atualização errado, o sql
+                      retornará um erro).
+                      Se escrevermos um comando de inserção em uma tabela que já
+                      existe o sql retornará um erro. Se escrevermos um comando
+                      delete em uma tabela que não existe o sql retornará um
+                      erro.
+                      <br /><br /> 
+                      Então, se precisarmos fazer uma operação que possa
+                      ser perigosa para o banco de dados, a melhor maneira
+                      (porque é a forma segura) é usar explicitamente a
+                      transação. <br /><br />
+                      Por exemplo, atualizar uma tabela e se ocorrer um erro, o
+                      banco de dados pode estar corrompido. Neste caso usamos
+                      transação porque se ocorrer um erro, podemos reverter as
+                      alterações.
+                    </ContentDawer>
                   </ContentDawer>
                 </Box>
 
