@@ -33,7 +33,8 @@ const componentes = () => {
                 dados, e definir o modelo do banco de dados.
               </Text>
               <Stack direction={"row"} spacing={"10"}>
-                {/*  */}
+              
+              
                 <Box>
                   <ContentDawer
                     title={"Data Manipulation Language"}
